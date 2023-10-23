@@ -3,7 +3,7 @@
 
 
 Task:
-Package a Russ Script into a Command-Line Tool 
+Convert Python Script to Rust and compare exeution performance.
 
 Requirements
 
@@ -13,36 +13,23 @@ Include communication with an external or internal database (NoSQL, SQL, etc) [I
 
 Deliverables
 
-Russ package
-Rust Data Engineering
-Understand Russ data structure 
+Rust and Python scripts 
+Performance comparison report (PDF or markdown)
 
-* Sequence
-  
-* Print Rust data structures:  `cd print-data-structs && cargo run`
-* Vector Fruit Salad:  `cd vector-fruit-salad && cargo run`
-* VecDeque Fruit Salad: `cd vecdeque-fruit-salad && cargo run`
-* Linkedin List Fruit Salad: `cd linked-list-fruit-salad && cargo run`
-* Fruit Salad CLI: `cd cli-salad && cargo run -- --number 3`
+Performance:
+The execution time for the Python script is approximately 2.7894973754882812e-05 seconds, and the execution time for the Rust script is 0.000054311 seconds. When we compare the two values, we find that the Rust script has a slightly higher execution time than the Python script.
 
-* Maps
 
-* HashMap frequency counter: `cd hashmap-count && cargo run`
-* HashMap language comparison: `cd hashmap-language && cargo run`
-* BTreeMap language comparison: `cd BTreeMap-language && cargo run`
+See the report:
 
-* Sets
+Python to Rust
 
-* HashSet fruits:  `cd hashset-fruit && cargo run`
-* BTreeSet fruits: `cd btreeset-fruit && cargo run`
+This Python version creates a random fruit salad with two servings of figs using a custom class Fruit that defines the comparison logic. The heapq module is utilized to maintain the priority queue based on the defined comparison logic. The final fruit salad is printed with the servings of figs appearing first.
 
-* Misc
+The execution time for the Python script is approximately 2.7894973754882812e-05 seconds, and the execution time for the Rust script is 0.000054311 seconds. When we compare the two values, we find that the Rust script has a slightly higher execution time than the Python script.
 
-* Binary Heap Fruit Salad with Fig Priority: `cd binaryheap-fruit && cargo run`
 
-User guide (PDF or markdown)
-#in progress..
-You can delay turning this in until the following week so that Alfredo can guide through it
+
 
 
 
