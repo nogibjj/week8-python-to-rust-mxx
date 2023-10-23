@@ -28,6 +28,8 @@ This Python version creates a random fruit salad with two servings of figs using
 
 The execution time for the Python script is approximately 2.7894973754882812e-05 seconds, and the execution time for the Rust script is 0.000054311 seconds. When we compare the two values, we find that the Rust script has a slightly higher execution time than the Python script.
 
+![rust](Screen Shot 2023-10-22 at 8.00.59 PM.png)
+
 
 
 
