@@ -13,12 +13,8 @@ Include communication with an external or internal database (NoSQL, SQL, etc) [I
 
 Deliverables
 
-Rust and Python scripts 
+Rust and Python scripts (main.py and main.rs)
 Performance comparison report (PDF or markdown)
-
-Performance:
-The execution time for the Python script is approximately 2.7894973754882812e-05 seconds, and the execution time for the Rust script is 0.000054311 seconds. When we compare the two values, we find that the Rust script has a slightly higher execution time than the Python script.
-
 
 See the report:
 
@@ -28,7 +24,11 @@ This Python version creates a random fruit salad with two servings of figs using
 
 The execution time for the Python script is approximately 2.7894973754882812e-05 seconds, and the execution time for the Rust script is 0.000054311 seconds. When we compare the two values, we find that the Rust script has a slightly higher execution time than the Python script.
 
+Python Performance:
 ![python](https://github.com/nogibjj/week8-python-to-rust-mxx/blob/main/Screen%20Shot%202023-10-22%20at%208.00.59%20PM.png)
+
+Rust Performance:
+![rust](https://github.com/nogibjj/week8-python-to-rust-mxx/blob/main/Screen%20Shot%202023-10-22%20at%208.01.58%20PM.png)
 
 
 
